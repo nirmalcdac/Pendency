@@ -98,17 +98,3 @@ Testability
 Code readability
 Language proficiency
 [execution time limit] 12 seconds (java)
-main.java
-Java
-12345
-import java.io.*;import com.fasterxml.jackson.databind.ObjectMapper;import com.fasterxml.jackson.core.JsonProcessingException;// Main class should be named 
-
-OUTPUT
-TERMINAL
-Free-format output
-RUN
-
-MORE
-VIEW DIFF
-SUBMIT
-REVIEW YOUR ANSWERS
