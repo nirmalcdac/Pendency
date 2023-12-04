@@ -31,12 +31,12 @@ public class TrackingInformationImpl implements TrackingInformation {
     @Override
     public void startTracking(Integer trackingId, HierarchicalTags hierarchicalTags) {
         trackingInformationMap.put(trackingId, hierarchicalTags);
-        System.out.println("After add size is " + trackingInformationMap.size());
+        System.out.println("After add of " + trackingId + " " + hierarchicalTags.toString() + " size is " + trackingInformationMap.size());
     }
 
     @Override
     public void stopTracking(Integer id) {
         trackingInformationMap.remove(id);
-        System.out.println("After Remove the size is " + trackingInformationMap.size());
+        System.out.println("After Remove of " + id + " the size is " + trackingInformationMap.size());
     }
 }
